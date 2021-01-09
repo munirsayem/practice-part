@@ -1,0 +1,64 @@
+.video{
+    width:200px;
+    height:100px;
+}
+
+td{
+    border:1px solid black;
+    padding:0px 5px;
+    text-align:center;
+}
+th{
+    border:2px solid red;
+    text-align:center;
+    padding:2px;
+}
+table{
+    border-collapse: collapse;;
+}
+
+nav li{
+list-style: none;  
+padding:10px;  
+color:black;
+}
+nav >ul >li{
+    float:left;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+    font-size:50px;
+    
+}
+nav{
+    height: 50px;
+    background-color:green;
+    font-size:25px;
+    line-height:30px;
+
+}
+nav li:hover{
+    background-color: tomato;
+    
+}
+.dropdown{
+    display:none;
+    padding:0px;
+    position:absolute;
+    background-color: lightslategray;
+    
+}
+nav>ul>li:hover>ul{
+    display:block;
+}
+.dropdown-2{
+    display:none;
+    padding:0px;
+    position:absolute;
+    background-color: magenta;
+}
+svg{
+    margin-bottom: 80px;
+    padding:30x;
+}
